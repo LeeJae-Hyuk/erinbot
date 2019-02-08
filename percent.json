@@ -1,0 +1,42 @@
+{
+  "intent": {
+    "id": "hm4ohy4yw3niob0badd0zlaw",
+    "name": "블록 이름"
+  },
+  "userRequest": {
+    "timezone": "Asia/Seoul",
+    "params": {
+      "ignoreMe": "true"
+    },
+    "block": {
+      "id": "hm4ohy4yw3niob0badd0zlaw",
+      "name": "블록 이름"
+    },
+    "utterance": "발화 내용",
+    "lang": null,
+    "user": {
+      "id": "050020",
+      "type": "accountId",
+      "properties": {}
+    }
+  },
+  "bot": {
+    "id": "5c5bb045384c553f07cd0c81",
+    "name": "봇 이름"
+  },
+  "action": {
+    "name": "c3triwws2i",
+    "clientExtra": null,
+    "params": {
+      "확률": 1
+    },
+    "id": "ydvpjb1ahiyzytt6cswtakx1",
+    "detailParams": {
+      "확률": {
+        "origin": 1,
+        "value": 1,
+        "groupName": ""
+      }
+    }
+  }
+}
