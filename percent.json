@@ -1,42 +1,31 @@
 {
-  "intent": {
-    "id": "hm4ohy4yw3niob0badd0zlaw",
-    "name": "블록 이름"
-  },
-  "userRequest": {
+ "userRequest": {
     "timezone": "Asia/Seoul",
-    "params": {
-      "ignoreMe": "true"
-    },
+    "params": {},
     "block": {
-      "id": "hm4ohy4yw3niob0badd0zlaw",
-      "name": "블록 이름"
+      "id": "<블록 id>",
+      "name": "<블록 이름>"
     },
-    "utterance": "발화 내용",
-    "lang": null,
+    "utterance": "<사용자 발화>",
+    "lang": "kr",
     "user": {
-      "id": "050020",
-      "type": "accountId",
-      "properties": {}
-    }
-  },
-  "bot": {
-    "id": "5c5bb045384c553f07cd0c81",
-    "name": "봇 이름"
-  },
-  "action": {
-    "name": "c3triwws2i",
-    "clientExtra": null,
-    "params": {
-      "확률": 1
-    },
-    "id": "ydvpjb1ahiyzytt6cswtakx1",
-    "detailParams": {
-      "확률": {
-        "origin": 1,
-        "value": 1,
-        "groupName": ""
+      "id": "<사용자 botUserKey>",
+      "type": "botUserKey",
+      "properties": {
+        "plusfriendUserKey": "<플러스 친구 사용자 id>"
       }
     }
+  },
+  "contexts": [],
+  "bot": {
+    "id": "<봇 id>",
+    "name": "<봇 이름>"
+  },
+  "action": {
+    "name": "<스킬 이름>",
+    "clientExtra": null,
+    "params": {},
+    "id": "<스킬 id>",
+    "detailParams": {}
   }
 }
